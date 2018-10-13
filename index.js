@@ -6,15 +6,13 @@ import {
   View,
 } from 'react-360';
 
+import Main from './src/containers/Main';
+
 export default class first_vr_proj extends React.Component {
   render() {
     return (
       <View style={styles.panel}>
-        <View style={styles.greetingBox}>
-          <Text style={styles.greeting}>
-            Welcome to React 360
-          </Text>
-        </View>
+        <Main />
       </View>
     );
   }
